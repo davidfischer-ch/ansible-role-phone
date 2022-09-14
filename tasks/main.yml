@@ -8,7 +8,7 @@
       template:
         src: cleanup.py
         dest: /tmp/cleanup.py
-        mode: 0755
+        mode: '755'
 
     - name: Execute the cleanup script
       command:
